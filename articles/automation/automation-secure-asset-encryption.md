@@ -56,9 +56,9 @@ Before enabling customer-managed keys for an Automation account, you must ensure
 - The Automation account and the key vault can be in different subscriptions but need to be in the same Microsoft Entra tenant.
 - When using PowerShell, verify the [Azure Az PowerShell module](/powershell/azure/new-azureps-module-az) is installed. To install or upgrade, see [How to install the Azure Az PowerShell module](/powershell/azure/install-azure-powershell).
 
-## Generate and assign a new system-assigned identity for an Automation account
+## Generate and assign a new user or system-assigned identity for an Automation account
 
-To use customer-managed keys with an Automation account, your Automation account needs to authenticate against the key vault storing customer-managed keys. Azure Automation uses system assigned managed identities to authenticate the account with Azure Key Vault. For more information about managed identities, see [What are managed identities for Azure resources?](../active-directory/managed-identities-azure-resources/overview.md)
+To use customer-managed keys with an Automation account, your Automation account needs to authenticate against the key vault storing customer-managed keys. Azure Automation uses system assigned or user assigned managed identities to authenticate the account with Azure Key Vault. For more information about managed identities, see [What are managed identities for Azure resources?](../active-directory/managed-identities-azure-resources/overview.md)
 
 ### Using PowerShell
 
