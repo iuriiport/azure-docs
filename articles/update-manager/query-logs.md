@@ -73,7 +73,7 @@ If the property for the resource type is `patchassessmentresults/softwarepatches
 
 ### Patch installation results
 
-The table `patchinstallationresources` includes resources related to machine patch assessment. The following table describes its properties.
+The table `patchinstallationresources` includes resources related to machine patch installation. The following table describes its properties.
 
 | Property | Description |
 |----------|-------------|
